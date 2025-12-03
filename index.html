@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Ravi Mhatre Portfolio</title>
+    <title>Ravi Mhatre | Senior Data Analyst & Business Analytics Lead</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -22,104 +22,92 @@
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <style>
+    /*======================================
+    //--//-->   ABOUT
+    ======================================*/
 
+    .about-mf .box-shadow-full {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
 
-<style>
+    .about-mf .about-img {
+      margin-bottom: 2rem;
+    }
 
-/*======================================
-//--//-->   ABOUT
-======================================*/
+    .about-mf .about-img img {
+      margin-left: 10px;
+    }
 
-.about-mf .box-shadow-full {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
+    .skill-mf .progress {
+      /* background-color: #cde1f8; */
+      margin: .5rem 0 1.2rem 0;
+      border-radius: 0;
+      height: .7rem;
+    }
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
+    .skill-mf .progress .progress-bar {
+      height: .7rem;
+      background-color: #ffbd39;
+    }
 
-.about-mf .about-img img {
-  margin-left: 10px;
-}
+    /* Animation styles */
+    #typing-animation {
+      position: relative;
+      font-size: 30px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 3s steps(20, end) infinite;
+    }
 
+    #typing-animation:before {
+      content: "";
+      top: 0;
+      left: 0;
+      width: 0;
+      height: 100%;
+      background-color: #ccc;
+      animation: typing-cursor 0.5s ease-in-out infinite;
+    }
 
-.skill-mf .progress {
-  /* background-color: #cde1f8; */
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .7rem;
-}
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
 
-.skill-mf .progress .progress-bar {
-  height: .7rem;
-  background-color: #ffbd39;
-}
+    @keyframes typing-cursor {
+      from {
+        width: 5px;
+      }
+      to {
+        width: 0;
+      }
+    }
 
+    /* project image zoom effect */
+    .zoom-effect {
+      overflow: hidden;
+      transition: transform 0.3s ease-out;
+    }
 
-/* Animation styles */
-#typing-animation {
-  position: relative;
-  font-size: 30px;
-  font-weight: bold;
-  color: rgb(255, 255, 255);
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(20, end) infinite;
-}
-
-#typing-animation:before {
-  content: "";
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #ccc;
-  animation: typing-cursor 0.5s ease-in-out infinite;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
-@keyframes typing-cursor {
-  from {
-    width: 5px;
-  }
-  to {
-    width: 0;
-  }
-}
-
-
-/* project image zoom effect */
-
-.zoom-effect {
-  overflow: hidden;
-  transition: transform 0.3s ease-out;
-}
-
-.zoom-effect:hover {
-  transform: scale(1.1);
-}
-
-
-</style>
-
+    .zoom-effect:hover {
+      transform: scale(1.1);
+    }
+    </style>
 
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	  
-	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.html">This Is My PORTFOLIO</a>
+	      <a class="navbar-brand" href="index.html">Ravi Mhatre</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -128,262 +116,289 @@
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
+	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
 	          <li class="nav-item"><a href="#project-section" class="nav-link"><span>Projects</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
+
 	  <section id="home-section" class="hero">
-		  <div class="home-slider  owl-carousel">
-	       <div class="slider-item ">
-	      	<div class="overlay"></div>
-	         <div class="container">
-	          <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
-	          	<div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image9.png);">
-	          	 <div class="overlay"></div>
-	          	</div>
-		          <div class="one-forth d-flex  align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
-		          	<div class="text">
-		          		<span class="subheading">Hello!</span>
-			            <h1 class="mb-4 mt-3">I'm <span>Ravi Mhatre</span></h1>
+		  <div class="home-slider owl-carousel">
+        <div class="slider-item">
+          <div class="overlay"></div>
+          <div class="container">
+            <div class="row d-md-flex no-gutters slider-text align-items-end justify-content-end" data-scrollax-parent="true">
+              <div class="one-third js-fullheight order-md-last img" style="background-image:url(images/image9.png);">
+                <div class="overlay"></div>
+              </div>
+              <div class="one-forth d-flex align-items-center ftco-animate" data-scrollax=" properties: { translateY: '70%' }">
+                <div class="text">
+                  <span class="subheading">Hello!</span>
+                  <h1 class="mb-4 mt-3">I'm <span>Ravi Mhatre</span></h1>
 
-						<!-- Element to contain animated typing -->
-						<span id="typing-animation"></span>
+                  <!-- Element to contain animated typing -->
+                  <span id="typing-animation"></span>
 
-						<script>
+                  <script>
+                    // Initialize the typing animation
+                    const typingAnimationElement = document.getElementById('typing-animation');
 
-						// Initialize the typing animation
-						const typingAnimationElement = document.getElementById('typing-animation');
+                    // Create an array of typing text
+                    const typingTexts = [
+                      'Business Analytics  ',
+                      'Financial Analytics  ',
+                      'Data Insights  '
+                    ];
 
-						// Create an array of typing text
-						const typingTexts = [
-						'Data Analytics  ',
-						'Business Analytics ',
-						'Digital Marketing   ',
-						];
+                    // Create a function to display the typing animation for a given text
+                    function playTypingAnimation(text) {
+                      // Loop through each character and add it to the element
+                      for (let i = 0; i < text.length; i++) {
+                        setTimeout(() => {
+                          typingAnimationElement.textContent += text[i];
+                        }, i * 100);
+                      }
 
-						// Create a function to display the typing animation for a given text
-						function playTypingAnimation(text) {
-						// Loop through each character and add it to the element
-						for (let i = 0; i < text.length; i++) {
-							setTimeout(() => {
-							typingAnimationElement.textContent += text[i];
-							}, i * 100); // Increase the delay to slow down the typing animation
-						}
+                      // Once the animation is complete, reset the text and start over
+                      setTimeout(() => {
+                        typingAnimationElement.textContent = '';
+                        playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
+                      }, text.length * 200);
+                    }
 
-						// Once the animation is complete, reset the text and start over
-						setTimeout(() => {
-							typingAnimationElement.textContent = '';
-							playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-						}, text.length * 200);
-						}
+                    // Start the typing animation loop
+                    playTypingAnimation(typingTexts[0]);
+                  </script>
 
-						// Start the typing animation loop
-						playTypingAnimation(typingTexts[0]);
-
-						</script>
-
-						<br>
-						<br>
-			            <h2>A Data Analyst</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
-							<a href="https://github.com/Raezoxc" class="btn btn-primary py-3 px-4">My works</a></p>
-		            </div>
-		          </div>
-	        	</div>
-	        </div>
-	      </div>
-		</div>
+                  <br><br>
+                  <h2>Senior Data Analyst / Business Analytics Lead</h2>
+                  <p class="mt-3">
+                    <a href="https://github.com/Raezoxc" class="btn btn-primary py-3 px-4">My Work</a>
+                    <a href="docs/Ravi_Mhatre_CV.pdf" class="btn btn-white btn-outline-white py-3 px-4" target="_blank">Download My CV</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+		  </div>
     </section>
-
-
 
     <section class="ftco-about img ftco-section ftco-no-pb" id="about-section">
     	<div class="container">
-			<div class="row">
-				<div class="row d-flex align-items-stretch">
-				<!-- <div class="row d-flex"> -->
-					<div class="col-md-6 col-lg-5 d-flex">
-						<div class="img-about img d-flex align-items-stretch">
-							<div class="overlay">
-								<div class="row">
-									<div class="col-sm-6 col-md-5">
-									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+			  <div class="row">
+				  <div class="row d-flex align-items-stretch">
+					  <div class="col-md-6 col-lg-5 d-flex">
+						  <div class="img-about img d-flex align-items-stretch">
+							  <div class="overlay">
+								  <div class="row">
+									  <div class="col-sm-6 col-md-5">
+  									  <div class="about-img">
+  										  <img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+  									  </div>
 									  </div>
-									</div>
-									<!-- Details next to profile image -->
-									<div class="col-sm-6 col-md-7">
-									  <div class="about-info">
-										<p><span class="title-s">Name: </span> <span>Ravi Mhatre</span></p>
-										<p><span class="title-s">Job Role: </span> <span> Buesiness Data Analyst</span></p>
-										<p><span class="title-s">Experience: </span> <span>7 Years 3 Months</span></p>
-										<p><span class="title-s">Address: </span> <span>Worcester, United Kingdom</span></p>
+									  <!-- Details next to profile image -->
+									  <div class="col-sm-6 col-md-7">
+  									  <div class="about-info">
+  										  <p><span class="title-s">Name: </span> <span>Ravi Mhatre</span></p>
+  										  <p><span class="title-s">Job Role: </span> <span>Senior Data Analyst / Business Analytics Lead</span></p>
+  										  <p><span class="title-s">Experience: </span> <span>7+ Years</span></p>
+  										  <p><span class="title-s">Address: </span> <span>Cheltenham, United Kingdom</span></p>
+  									  </div>
 									  </div>
-									</div>
 								  </div>
 
-								<div class="skill-mf">
-									<p class="title-s">Skills</p>
-									<span>SQL</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>PYTHON</span> <span class="pull-right">85%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Excel</span> <span class="pull-right">95%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Data Visualization</span> <span class="pull-right">90%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-									
-									<span>Machine Learning</span> <span class="pull-right">80%</span>
-									<div class="progress">
-										<div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-											aria-valuemax="100"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+								  <div class="skill-mf">
+									  <p class="title-s">Core Skills</p>
+
+									  <span>Power BI & Dashboards</span> <span class="pull-right">95%</span>
+									  <div class="progress">
+										  <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									  </div>
+
+									  <span>SQL</span> <span class="pull-right">95%</span>
+									  <div class="progress">
+										  <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									  </div>
+									  
+									  <span>Excel & Reporting</span> <span class="pull-right">95%</span>
+									  <div class="progress">
+										  <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+									  </div>
+									  
+									  <span>Python (Analytics & Automation)</span> <span class="pull-right">85%</span>
+									  <div class="progress">
+										  <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+									  </div>
+									  
+									  <span>Business & Financial Analytics</span> <span class="pull-right">90%</span>
+									  <div class="progress">
+										  <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+									  </div>
+								  </div>
+							  </div>
+						  </div>
+					  </div>
 					
-					<div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
-						<div class="row justify-content-start pb-3">
-							<div class="col-md-12 heading-section ftco-animate">
-								
-								<h1 class="big">About</h1>
-								<h2 class="mb-4">About Me</h2>
-								
-								<p>Driven MBA graduate with 5 years of analytical expertise, adept in Python, SQL, Tableu and PowerBI. 
-									Transitioning from an IT background to analytics, currently fulfilling the role of a business analyst in the UK. 
-									Equipped with extensive Data Analysis acumen, poised to contribute effectively to a progressive and innovative organization.</p>
-								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Analytics</span></li>
-									<li class="d-flex"><span>Domain:</span> <span>Construction, Website Development, Manufacturing &amp; Ordnance Survey mapping</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Masters of Business Administration</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi, Telgu, Tamil</span></li>
-									<li class="d-flex"><span>BI Tools:</span> <span>Microsoft Power BI, Looker &amp; Tableau</span></li>
-									<li class="d-flex"><span>Other Skills:</span> <span>Sql, Python, Excel, Git, Google Analytics &amp; Digital Marketing</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Dancing</span></li>
-									
-								</ul>
-							</div>
-						</div>
+					  <div class="col-md-6 col-lg-7 pl-lg-5 pb-5">
+						  <div class="row justify-content-start pb-3">
+							  <div class="col-md-12 heading-section ftco-animate">
+								  <h1 class="big">About</h1>
+								  <h2 class="mb-4">About Me</h2>
+								  
+								  <p>
+									Senior Data Analyst and Business Analytics professional with experience delivering financial, commercial, and operational insights across multi-site organisations. Skilled in Power BI, SQL, Python, and ERP-integrated analytics, with strong FP&A partnership experience including budgeting, forecasting automation, and executive reporting. Passionate about transforming complex data into clear, actionable insights that drive decision-making and performance improvement in fast-growth environments.
+								  </p>
 
+								  <ul class="about-info mt-4 px-md-0 px-2">
+									  <li class="d-flex"><span>Profile:</span> <span>Business Analytics & Data Insights</span></li>
+									  <li class="d-flex"><span>Domain:</span> <span>Healthcare, Manufacturing, Construction, GIS & Multi-site Operations</span></li>
+									  <li class="d-flex"><span>Education:</span> <span>MBA – University of Worcester (Merit)</span></li>
+									  <li class="d-flex"><span>Languages:</span> <span>English, Hindi, Telugu, Tamil</span></li>
+									  <li class="d-flex"><span>BI Tools:</span> <span>Power BI (Advanced DAX), Tableau, Looker Studio</span></li>
+									  <li class="d-flex"><span>Technical:</span> <span>SQL, Python, Excel, ETL, Data Modelling, ERP (SAP B1, Enterpryze, HusbPort)</span></li>
+									  <li class="d-flex"><span>Interests:</span> <span>Data Strategy, Technology, Travelling</span></li>
+								  </ul>
+							  </div>
+						  </div>
 
-						<div class="counter-wrap ftco-animate d-flex mt-md-3">
-							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="12">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
-								</p>
-								<p><a href="https://www.linkedin.com/in/ravi-mhatre-4a0333192" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+						  <div class="counter-wrap ftco-animate d-flex mt-md-3">
+							  <div class="text">
+								  <p class="mb-4">
+									  <span class="number" data-number="12">0</span> <span>+</span>
+									  <span>&nbsp; Projects completed</span>
+								  </p>
+								  <p>
+                    <a href="docs/Ravi_Mhatre_CV.pdf" class="btn btn-primary py-3 px-3" target="_blank">Download My CV</a>
+                    <a href="https://www.linkedin.com/in/ravi-mhatre-4a0333192" class="btn btn-outline-primary py-3 px-3">LinkedIn</a>
+                  </p>
+							  </div>
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </div>
     </section>
 
-
-
-	
     <section class="ftco-section ftco-no-pb" id="resume-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>Seasoned Data Analyst with 7+ years of experience driving business strategies through data-driven insights. Proven expertise in data science, statistical analysis, machine learning algorithms and project management.</p>
+            <p>
+              Senior Data Analyst & Business Analytics professional with expertise in Power BI, SQL, Python, and ERP systems. Experienced supporting FP&A, automating budgeting and forecasting workflows, and delivering financial, commercial, and operational insights across multi-site organisations. Skilled in building executive dashboards, KPI frameworks, and analytics solutions that enable data-driven decision-making in fast-growth environments.
+            </p>
+            <p>
+              <a href="docs/Ravi_Mhatre_CV.pdf" class="btn btn-primary py-3 px-4" target="_blank">Open Full CV (PDF)</a>
+            </p>
           </div>
         </div>
 
-		<div class="row">
-			<h1 class="big-4">Experience</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
+		    <div class="row">
+			    <h1 class="big-4">Experience</h1>
+			    <div class="underline"></div>
+		    </div>
+		    <br>
 		
-		<div class="row">
-				<div class="col-md-6">
-					<div class="resume-wrap ftco-animate">
-						<span class="date">2023-Present</span>
-						<h2> Business Data Analyst</h2>
-						<span class="position">Centremaps</span>
-						<p class="mt-4">CentremapsLive Provides Mapping On Demand. Ordnance Survey MasterMap | Aerial Data | Tree Data | LiDAR Data | Historic Maps | Utility Reports | Fastview Utility. 
-							<ul>
-								<li>Proficient in SQL and Python for data extraction, manipulation, and analysis, with a focus on ensuring data accuracy and reliability.</li>
-								<li>Skilled in data visualization techniques to communicate complex insights effectively to stakeholders and drive informed decision-making processes.</li>
-								<li>Proficient in Quantum GIS for geospatial analysis, collaborating on project goals. Skilled in Fastview utility for UK utilities' georeferencing and digitizing.</li>
-							</ul>
-						</p>
-					</div>
+		    <div class="row">
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">Aug 2024 – Present</span>
+              <h2>Lead Data Analyst</h2>
+              <span class="position">Astor Bannerman</span>
+              <p class="mt-4">
+                <ul>
+                  <li>Lead development of financial, commercial, and operational dashboards in Power BI used by senior leadership.</li>
+                  <li>Built automated reporting pipelines using SQL and SAP Business One, reducing manual reporting time by 60% and improving data accuracy.</li>
+                  <li>Partner with Finance to analyse revenue trends, forecasting inputs, cost drivers, and multi-site performance.</li>
+                  <li>Own KPI framework design and deliver executive-level insights supporting strategic and operational decision-making.</li>
+                  <li>Collaborate with ERP and IT teams to enhance data architecture, integrations, and reporting automation.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
 
-				</div>
+				  <div class="col-md-6">
+					  <div class="resume-wrap ftco-animate">
+						  <span class="date">Oct 2023 – Aug 2024</span>
+						  <h2>Business Data Analyst</h2>
+						  <span class="position">CentreMaps (Ordnance Survey Partner)</span>
+						  <p class="mt-4">
+                <ul>
+                  <li>Developed Power BI dashboards to monitor customer behaviour, project performance, and demand forecasting.</li>
+                  <li>Extracted and transformed large datasets using SQL and Python, improving reporting automation and accuracy.</li>
+                  <li>Strengthened data quality and governance across multi-source pipelines to support commercial and operational planning.</li>
+                  <li>Delivered insights that informed business decisions across mapping, utilities, and geospatial data services.</li>
+                </ul>
+              </p>
+					  </div>
+				  </div>
+			  </div>
 
-				<div class="col-md-6">
-					<div class="-wrap ftco-animate">
-						<span class="date">2019-2022</span>
-						<h2>Data Analyst</h2>
-						<span class="position">Buildoster</span>
-						<p class="mt-4">Buildoster provides website development services with flexible EMI options, in addition to retailing pre-owned gaming computer, laptops, and accessories. 
-							<ul>
-								<li>Proficient in SQL for data cleaning, manipulation, and transformation to ensure data quality, with strong skills in data visualization using Power BI.</li>
-								<li>Knowledgeable in Extract, Transform, Load (ETL) processes for data integration and migration using SQL and Python.</li>
-								<li>Designs and builds pipelines to move and transform data efficiently. Constructs and maintains data warehouses for storing and organizing large volumes of data.</li>
-							</ul>
-						</p>
-					</div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="resume-wrap ftco-animate">
+              <span class="date">Feb 2023 – Jul 2023</span>
+              <h2>Marketing Analyst Intern</h2>
+              <span class="position">Southco Ltd (Manufacturing)</span>
+              <p class="mt-4">
+                <ul>
+                  <li>Supported analytics for product performance, digital campaigns, and pricing decisions.</li>
+                  <li>Developed dashboards to help marketing and product teams track engagement and sales trends.</li>
+                  <li>Contributed to data-driven optimisation of campaign performance and customer targeting.</li>
+                </ul>
+              </p>
+            </div>
+          </div>
 
-				</div>
-			</div>
+          <div class="col-md-6">
+					  <div class="resume-wrap ftco-animate">
+						  <span class="date">Feb 2018 – Jul 2022</span>
+						  <h2>Business Analytics Manager</h2>
+						  <span class="position">Maheshwari Enterprises (Construction & Engineering)</span>
+						  <p class="mt-4">
+                <ul>
+                  <li>Led the organisation’s analytics function, owning reporting strategy across commercial, project, and financial areas.</li>
+                  <li>Implemented Power BI reporting frameworks, improving visibility of project costs, revenue, and margin performance.</li>
+                  <li>Automated workflows using SQL and Python, reducing analysis time and enhancing budgeting and forecasting inputs.</li>
+                  <li>Presented insights directly to senior leadership, influencing operational decisions and pricing strategy.</li>
+                </ul>
+              </p>
+					  </div>
+				  </div>
+        </div>
 
-		<br>
-		<br>
+		    <br><br>
 
-		<div class="row">
-			<h1 class="big-4">Education</h1>
-			<div class="underline"></div>
-		</div>
-		<br>
+		    <div class="row">
+			    <h1 class="big-4">Education</h1>
+			    <div class="underline"></div>
+		    </div>
+		    <br>
 		
 			<div class="row">
-    			<div class="col-md-6">
-    				<div class="-wrap ftco-animate">
-    					<span class="date">2022-2023</span>
-    					<h2>(MBA) Masters of Business Administration</h2>
-    					<span class="position">University of Worceseter</span>
-    					<p class="mt-4">Grade: passed with Merit</p>
-    				</div>
+        <div class="col-md-6">
+          <div class="resume-wrap ftco-animate">
+            <span class="date">2022 – 2023</span>
+            <h2>Master of Business Administration (MBA)</h2>
+            <span class="position">University of Worcester, UK</span>
+            <p class="mt-4">Grade: Passed with Merit</p>
+          </div>
+        </div>
+
+    		<div class="col-md-6">
+    			<div class="resume-wrap ftco-animate">
+    				<span class="date">2016 – 2019</span>
+    				<h2>Bachelor of Science in Information Technology</h2>
+    				<span class="position">Lords Universal College, Mumbai</span>
+    				<p class="mt-4">Grade: 7.82 CGPA (A Grade)</p>
     			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">2016-2019</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Lords Universal College</span>
-    					<p class="mt-4">Grade: First class distinction.</p>
-    				</div>
-				</div>
-    		
+		    </div>
+    	</div>
     </section>
-
-   
 
     <section class="ftco-section" id="project-section">
       <div class="container">
@@ -391,7 +406,7 @@
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>Below are the sample Data Analytics projects on SQL, Python, Power BI & Excel.</p>
+            <p>Selected analytics projects showcasing SQL, Python, Power BI, and end-to-end reporting & automation work.</p>
           </div>
         </div>
         <div class="row d-flex">
@@ -400,68 +415,66 @@
               <a href="https://github.com/Raezoxc/Data_Visualization_Python/blob/main/Pandas%20Visualization.ipynb" class="block-20 zoom-effect" style="background-image: url('images/pnd.png');">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Raezoxc/Data_Visualization_Python">Data visualization in Python using Pandas</a></h3>
-                <p>Explores various visualization techniques to understand and interpret the ratings given to different flavors of ice cream</p>
+                <h3 class="heading"><a href="https://github.com/Raezoxc/Data_Visualization_Python">Data Visualisation in Python (Pandas)</a></h3>
+                <p>Explores different visualisation techniques in Python to understand trends and patterns in customer and product data, supporting data-driven decision-making.</p>
               </div>
             </div>
           </div>
+
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
               <a href="https://github.com/Raezoxc/Bike_Sales_Dashboard_Excel" class="block-20 zoom-effect" style="background-image: url('images/bk.png');">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Raezoxc/Bike_Sales_Dashboard_Excel">Data Analysis using Excel</a></h3>
-                <p>Elevating data quality through meticulous cleaning processes and translating insights into a dynamic Excel dashboard, empowering informed decision-making.</p>
+                <h3 class="heading"><a href="https://github.com/Raezoxc/Bike_Sales_Dashboard_Excel">Sales Reporting & Dashboarding in Excel</a></h3>
+                <p>Cleaned and modelled raw sales data, then built an interactive Excel dashboard to provide insights into customer segments, revenue trends, and regional performance.</p>
               </div>
             </div>
           </div>
+
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry">
               <a href="https://github.com/Raezoxc/Data_Cleaning_Python" class="block-20 zoom-effect" style="background-image: url('images/pb2.png');">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Raezoxc/Data_Cleaning_Python">Pandas Excel Data Cleaning: Streamlining Data Processing in Python</a></h3>
-                <p>Efficient Customer Call List Management: Streamlining Data with Pandas in Python.</p>
+                <h3 class="heading"><a href="https://github.com/Raezoxc/Data_Cleaning_Python">Data Cleaning & Preparation with Pandas</a></h3>
+                <p>Automated cleaning and transformation of messy customer call list data using Python to improve data quality and readiness for reporting.</p>
               </div>
             </div>
           </div>
         </div>
-	<br>
-		<!-- added justify-content-center to center align the last two projects -->
-		<div class="row d-flex justify-content-center">  
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/Raezoxc/-Historical-Data-Analysis-and-Strategic-Growth-Plan-for-Lightspeed-Networks" class="block-20 zoom-effect" style="background-image: url('images/pb1.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/Raezoxc/-Historical-Data-Analysis-and-Strategic-Growth-Plan-for-Lightspeed-Networks">Analyzing Historical Data and Crafting Strategic Growth Plans for Lightspeed Networks</a></h3>
-				  <p>About
-Utilizing competitor weaknesses, building on historical strengths, and targeting high-growth segments. Emphasizing reliability, speed, and regional sales will distinguish Lightspeed Networks in the telecommunications sector.</p>
-				</div>
-			  </div>
-			</div>
-			<div class="col-md-4 d-flex ftco-animate">
-				<div class="blog-entry justify-content-end">
-				<a href="https://github.com/Raezoxc/Pizza-Sales-Analysis-and-Data-Cleaning-in-SQL" class="block-20 zoom-effect" style="background-image: url('images/pbii.png');">
-				</a>
-				<div class="text mt-3 float-right d-block">
-  
-				  <h3 class="heading"><a href="https://github.com/Raezoxc/Pizza-Sales-Analysis-and-Data-Cleaning-in-SQL">Pizza Sales Analysis and Data Cleaning with SQL</a></h3>
-				  <p>This project analyzes pizza sales data to uncover insights into revenue, order patterns, and customer preferences. It includes data cleaning steps to ensure accuracy and reliability. </p>
-				</div>
-			  </div>
-			</div>
-		 </div>
-	  </div>
+
+	      <br>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a href="https://github.com/Raezoxc/-Historical-Data-Analysis-and-Strategic-Growth-Plan-for-Lightspeed-Networks" class="block-20 zoom-effect" style="background-image: url('images/pb1.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/Raezoxc/-Historical-Data-Analysis-and-Strategic-Growth-Plan-for-Lightspeed-Networks">Historical Data Analysis & Growth Strategy</a></h3>
+                <p>Analysed historical telecom performance data to identify high-growth segments, competitor weaknesses, and strategic opportunities for commercial expansion.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 d-flex ftco-animate">
+            <div class="blog-entry justify-content-end">
+              <a href="https://github.com/Raezoxc/Pizza-Sales-Analysis-and-Data-Cleaning-in-SQL" class="block-20 zoom-effect" style="background-image: url('images/pbii.png');">
+              </a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/Raezoxc/Pizza-Sales-Analysis-and-Data-Cleaning-in-SQL">Sales Analysis & Data Cleaning in SQL</a></h3>
+                <p>End-to-end SQL project including data cleaning, modelling, and analysis of sales performance to uncover patterns in revenue, orders, and customer preferences.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	    </div>
     </section>
 
-	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
+	  <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter">
       <div class="container">
-		<div class="row d-md-flex align-items-center">
+		    <div class="row d-md-flex align-items-center">
           <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
             <div class="block-18">
               <div class="text">
@@ -497,89 +510,89 @@ Utilizing competitor weaknesses, building on historical strengths, and targeting
         </div>
       </div>
 	
-	  <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
-			<!-- <div class="container"> -->
+	    <div class="ftco-section ftco-hireme img margin-top" style="background-image: url(images/bg_1.jpg)">
 				<div class="row justify-content-center">
 					<div class="col-md-7 ftco-animate text-center">
-						<h2>More projects on<span> Github  </span> </h2>
-						<div class="heading"> <h4> I love to solve business problems &amp; uncover hidden data stories </h4>
-						<br>
-						<p><a href="https://github.com/Raezoxc" class="btn btn-primary py-3 px-5">GitHub</a></p>
+						<h2>More projects on<span> GitHub</span></h2>
+						<div class="heading">
+              <h4>I love solving business problems & uncovering insights from data</h4>
+						  <br>
+						  <p><a href="https://github.com/Raezoxc" class="btn btn-primary py-3 px-5">GitHub</a></p>
 						</div>
 					</div>
 				</div>
-			<!-- </div> -->
 		</div>
 	</section>
 
-
-
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
-          </div>
+  <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    <div class="container">
+    	<div class="row justify-content-center mb-5 pb-3">
+        <div class="col-md-7 heading-section text-center ftco-animate">
+          <h1 class="big big-2">Contact</h1>
+          <h2 class="mb-4">Contact Me</h2>
+          <p>Below are the details to reach out to me.</p>
         </div>
+      </div>
 
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
-          		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Worcester, United Kingdom</p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-phone2"></span>
-          		</div>
-          		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+44 7570322978</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-paper-plane"></span>
-          		</div>
-          		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">ray1officials@gmail.com</a></p>
-	          </div>
-          </div>
-        
+      <div class="row d-flex contact-info mb-5">
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-map-signs"></span>
+        		</div>
+        		<h3 class="mb-4">Address</h3>
+	          <p>Cheltenham, United Kingdom</p>
+	        </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-phone2"></span>
+        		</div>
+        		<h3 class="mb-4">Contact Number</h3>
+	          <p><a href="tel://+447570322978">+44 7570 322978</a></p>
+	        </div>
+        </div>
+        <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+        	<div class="align-self-stretch box p-4 text-center">
+        		<div class="icon d-flex align-items-center justify-content-center">
+        			<span class="icon-paper-plane"></span>
+        		</div>
+        		<h3 class="mb-4">Email Address</h3>
+	          <p><a href="mailto:ravimhatre9833@gmail.com">ravimhatre9833@gmail.com</a></p>
+	        </div>
+        </div>
+      </div>
 
 		  <div class="container">
-			<br>
-			<br>
-			<div class="row justify-content-center">
-				<div class="col-md-7 ftco-animate text-center">
-					<h2>Have a<span> Question?  </span> <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ8DKhIPIW0Z9tCmKcXpgzseSAdRbjgNw9ckDk7Nr9PFW6pg/viewform?usp=sf_link" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
-				</div>
-			</div>
-				<br>
-					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
-					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ravi-mhatre/"><span class="icon-linkedin"></span></a></li>  
-					  <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
-				      <li class="ftco-animate"><a href="https://www.instagram.com/itsravy_/?igsh=a252czd0cGpkODE2&utm_source=qr"><span class="icon-instagram"></span></a></li>
-					</ul>
-				<br>
-		   </div>
-   </div>
- </section>
-
-
-
+			  <br><br>
+			  <div class="row justify-content-center">
+				  <div class="col-md-7 ftco-animate text-center">
+					  <h2>Have a<span> Question? </span> 
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZ8DKhIPIW0Z9tCmKcXpgzseSAdRbjgNw9ckDk7Nr9PFW6pg/viewform?usp=sf_link" class="btn btn-primary py-3 px-5">Click Here</a> 
+            </h2>
+				  </div>
+			  </div>
+  
+			  <br>
+			  <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+				  <li class="ftco-animate normal-txt">Find me on</li>
+				  <li class="ftco-animate"><a href="https://www.linkedin.com/in/ravi-mhatre-4a0333192"><span class="icon-linkedin"></span></a></li>  
+				  <li class="ftco-animate"><a href="https://twitter.com/"><span class="icon-twitter"></span></a></li>
+				  <li class="ftco-animate"><a href="https://www.instagram.com/itsravy_/?igsh=a252czd0cGpkODE2&utm_source=qr"><span class="icon-instagram"></span></a></li>
+			  </ul>
+			  <br>
+		  </div>
+    </div>
+  </section>
 
   <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
-
+  <div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+    </svg>
+  </div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
@@ -593,7 +606,6 @@ Utilizing competitor weaknesses, building on historical strengths, and targeting
   <script src="js/aos.js"></script>
   <script src="js/jquery.animateNumber.min.js"></script>
   <script src="js/scrollax.min.js"></script>
-  
   <script src="js/main.js"></script>
     
   </body>
